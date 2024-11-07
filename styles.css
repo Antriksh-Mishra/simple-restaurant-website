@@ -1,0 +1,142 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #333;
+}
+
+.menu ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.menu ul li {
+    padding: 5px 0;
+}
+
+.responsive-image {
+    max-width: 100%;
+    height: auto;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-top: 10px;
+}
+
+form input, form button {
+    padding: 10px;
+    margin-top: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #333;
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+.menu-item {
+    background-color: white; 
+    border-radius: 8px; 
+    padding: 15px; 
+    margin: 15px 0; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+    transition: box-shadow 0.3s ease; 
+}
+
+.menu-item:hover {
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2); 
+}
+body {
+    background-color: #f5f5f5; 
+    font-family: Arial, sans-serif; 
+}
+
+.welcome-image {
+    width: 100%; 
+    max-width: 600px; 
+    border-radius: 8px;
+    margin-top: 20px; 
+}
+
+.menu-image {
+    width: 100%; 
+    max-width: 150px; 
+    border-radius: 8px; 
+    display: block; 
+    margin: 10px auto; 
+}
+
+.menu-item {
+    background-color: white;
+    border-radius: 8px;
+    padding: 15px;
+    margin: 15px 0;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+.menu-item:hover {
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+body{
+    margin:auto
+}
+section{
+    text-align: center;
+    margin:50px;
+    margin-left:100px;
+    margin-right: 100px;
+}
+li{
+    
+}

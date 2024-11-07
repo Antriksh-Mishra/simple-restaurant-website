@@ -1,0 +1,88 @@
+/* General Reset and Layout */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem;
+  }
+  
+  .menu, .order-summary {
+    width: 45%;
+  }
+  
+  h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+  }
+  
+  .menu-item {
+    margin-bottom: 1rem;
+  }
+  
+  label {
+    font-size: 1.2rem;
+    margin-right: 0.5rem;
+  }
+  
+  input[type="number"] {
+    width: 60px;
+    padding: 0.5rem;
+    font-size: 1.1rem;
+  }
+  
+  button {
+    padding: 0.7rem 1.5rem;
+    font-size: 1.2rem;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #555;
+  }
+  
+  .order-summary {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 1.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #333;
+    color: #fff;
+    margin-top: 2rem;
+  }
+  header a {color: white;
+    text-decoration: none;
+    padding: 20px;
+
+  }

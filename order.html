@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Restaurant Order Page</title>
+  <link rel="stylesheet" href="order.css">
+</head>
+<body>
+  <header>
+    <h1>Welcome to Our Restaurant</h1>
+    <h3>Order your favorite dishes!</h3
+    <nav>
+        
+            <a href="index.html">Home</a></li>
+            <a href="menu.html">Menu</a></>
+            <a href="about.html">About Us</a></>
+           
+        <a href="book.html">Book a Table</a>
+        <a href="login.html" >LOGIN</a>
+        <a href="signup.html">SignUp</a>
+        
+    </nav>
+  </header>
+
+  <div class="container">
+    <section class="menu">
+      <h2>Our Menu</h2>
+      <form id="order-form">
+        <div class="menu-item">
+          <label for="item1">Spaghetti Bolognese</label>
+          <input type="number" id="item1" name="item1" min="0" value="0" />
+        </div>
+        <div class="menu-item">
+          <label for="item2">Margherita Pizza</label>
+          <input type="number" id="item2" name="item2" min="0" value="0" />
+        </div>
+        <div class="menu-item">
+          <label for="item3">Caesar Salad</label>
+          <input type="number" id="item3" name="item3" min="0" value="0" />
+        </div>
+        <div class="menu-item">
+          <label for="item4">Grilled Chicken</label>
+          <input type="number" id="item4" name="item4" min="0" value="0" />
+        </div>
+        <button type="submit">Place Order</button>
+      </form>
+    </section>
+
+    <section class="order-summary">
+      <h2>Order Summary</h2>
+      <div id="order-summary">
+        <p>No items selected.</p>
+      </div>
+    </section>
+  </div>
+
+  <footer>
+    <p>&copy; 2024 Restaurant Name. All Rights Reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
